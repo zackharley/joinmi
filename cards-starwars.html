@@ -1,7 +1,8 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="css/main_interface.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/cards.css">
     <script src="js/jquery-2.2.0.min.js"></script>
     <script src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
@@ -27,13 +28,10 @@
         <p class="event received">Device is Ready</p>
     </div> default native asset access establishment indication (cordova.js has loaded) -->
     <header>
-        <a onclick="drawerOpen()"><img id="hamburger" src="photos/global/ic_hamburger.png"></a>
+        <a href=""><img id="hamburger" src="photos/global/ic_back.png"></a>
         <h1>JOINMI</h1>
         <img id="notification" src="photos/global/ic_magglass.png">
     </header>
-    <div id="search">
-
-    </div>
     <a onclick="drawerClose()">
         <div id="overlay"></div>
     </a>
@@ -76,80 +74,47 @@
             </div>
         </div>
     </div>
-
-    <div class="deck">
-        <div id="topCard">
-            <div id="deckHeader">
-                <img id="cloud" src="photos/main_interface/bubble_invitedperson.png" />
-                <h3>Event Name</h3>
+    <div id="banner" style="background-image: url('photos/cards/hackthe6ix.png');)">
+        <!--<h2>STAR WARS PREMIERE</h2>
+        <button class="inviteButton">Invite Friends!</button>-->
+        <img class="sponsored" src="photos/cards/banner_sponsored.png">
+    </div>
+    <div id="cards">
+        <div class="category red">
+            <div class="cardText">
+                <h3>Video Games</h3>
+                <p class='details'>details</p>
             </div>
-            <div id="writtenContent">
-                <table>
-                    <tr>
-                        <td id="location"><img class="image" src="photos/main_interface/ic_location.png" /></td>
-                        <td>Location</td>
-                        <td>
-                            <!-- location set -->test</td>
-                    </tr>
-                    <tr>
-                        <td><img class="image" src="photos/main_interface/ic_time.png" /></td>
-                        <td>Time</td>
-                        <td>
-                            <!-- time set -->test</td>
-                    </tr>
-                    <tr>
-                        <td><img class="image" src="photos/main_interface/ic_invited.png" /></td>
-                        <td>Invited</td>
-                        <td>
-                            <!-- friends set -->test</td>
-                    </tr>
-
-
-                </table>
+            <img class="categoryIcon videogames" src="photos/cards/bg_videogames.png">
+            <img class="edit" src="photos/cards/ic_edit.png">
+        </div>
+        <div class="category blue">
+            <div class="cardText">
+                <h3>Movies</h3>
+                <p class='details'>details</p>
             </div>
-            <div id="profileCircles">
-                <table class="secondTable">
-                    <tr>
-                        <td id="firstRowCircle">
-                            <div class="profileCircle"></div>
-                        </td>
-                        <td>
-                            <div class="profileCircle"></div>
-                        </td>
-                        <td>
-                            <div class="profileCircle"></div>
-                        </td>
-                        <td>
-                            <div class="profileCircle"></div>
-                        </td>
-                        <td>
-                            <div class="profileCircle"></div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td id="secondRowCircle">
-                            <div class="profileCircle"></div>
-                        </td>
-                        <td>
-                            <div class="profileCircle"></div>
-                        </td>
-                        <td>
-                            <div class="profileCircle"></div>
-                        </td>
-                    </tr>
-                </table>
-                <img id="redCircle" src="photos/main_interface/button_hover.png" />
+            <img class="categoryIcon movies" src="photos/cards/bg_movies.png">
+            <img class="edit" src="photos/cards/ic_edit.png" style="margin-left:40px;">
+        </div>
+        <div class="category green">
+            <div class="cardText">
+                <h3>Festivals</h3>
+                <p class='details'>details</p>
             </div>
-            <div class="underlayCard" id="firstUnderlay"></div>
-            <div class="underlayCard" id="secondUnderlay"></div>
+            <img class="categoryIcon festivals" src="photos/cards/bg_festivals.png">
+            <img class="edit" src="photos/cards/ic_edit.png" style="margin-left:26px">
+        </div>
+        <div class="category purple">
+            <div class="cardText">
+                <h3>Concerts</h3>
+                <p class='details'>details</p>
+            </div>
+            <img class="categoryIcon concerts" src="photos/cards/bg_concerts.png">
+            <img class="edit" src="photos/cards/ic_edit.png" style="margin-left: 64px">
+            <img 
         </div>
     </div>
-    <!-- <div id="deviceready" class="blink">
-        <p class="event listening">Connecting to Device</p>
-        <p class="event received">Device is Ready</p>
-    </div> default native asset access establishment indication (cordova.js has loaded) -->
-
-
+    <img id="redCircle" src="photos/main_interface/button_hover.png"/>
 </body>
 
 

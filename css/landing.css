@@ -6,13 +6,13 @@
     border-radius: 50px;
     color:white;
     background-color: #F5A622;
-    margin-left: 145px;
+    margin-left: 140px;
     -webkit-appearance: none;
     border:none;
 }
 #logo{
     width: 800px;
-    margin: 145px; 
+    margin: 140px; 
 }
 #prompt{
     font-family: 'Roboto-Regular';
@@ -22,7 +22,7 @@
     margin-top: 100px;
 }
 #socialButtons{
-    margin-left: 145px;
+    margin-left: 140px;
 }
 .socialLogin{
     margin: 0px 100px;

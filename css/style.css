@@ -33,11 +33,11 @@ body {
 header{
     background-color:#302E31;
     width: 1080px !important;
-    height: 150px;
+    height: 100px;
     z-index: 1;
 }
 #hamburger{
-    margin: 80px 0px 0px 60px;
+    margin: 30px 0px 0px 60px;
     float: left;
     height: 40px;
 }
@@ -46,10 +46,10 @@ h1{
     font-family: 'Roboto-Black';
     font-size: 50px;
     float:left;
-    margin: 60px 340px 0px 340px;
+    margin: 20px 340px 0px 340px;
 }
 #notification{
-    margin:80px 60px 0px 0px;
+    margin:30px 60px 0px 0px;
     height: 40px;
 }
 #overlay{
@@ -129,4 +129,12 @@ h1{
 .menuOption{
     font-size: 44px;
     font-family: 'Roboto-Regular';
+}
+    #search {
+        width: 1080px;
+        height: 100px;
+        background-color:#302E31;
+        z-index:3;
+        top:100px;
+        left:0px;
 }
