@@ -1,32 +1,78 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="css/main_interface.css">
-	<script src="js/jquery-2.2.0.min.js"></script>
-	<script src="cordova.js"></script>
-	<script type="text/javascript" src="js/index.js"></script>
-	<script type="text/javascript">
-            app.initialize();
+    <link rel="stylesheet" href="css/main_interface.css">
+    <script src="js/jquery-2.2.0.min.js"></script>
+    <script src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        app.initialize();
     </script>
+    <script type="text/javascript" src="js/transit.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 
     <meta charset="utf-8" />
-	<meta name="format-detection" content="telephone=no" /> <!-- APPLE FEATURE, allows for detection of phone numbers, although due to some issues w/ 'too many numbers being selected', it is set to 'no' aka off by default -->
-	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- APPLE FEATURE, allows for detection of phone numbers, although due to some issues w/ 'too many numbers being selected', it is set to 'no' aka off by default -->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
 
-	<link rel="stylesheet" type="text/css" href="css/style.css"/>
-	<!-- more link tags for individual pages -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- more link tags for individual pages -->
 
 </head>
 
 <body>
-    
+    <!-- <div id="deviceready" class="blink">
+        <p class="event listening">Connecting to Device</p>
+        <p class="event received">Device is Ready</p>
+    </div> default native asset access establishment indication (cordova.js has loaded) -->
     <header>
-        <img id="hamburger" src="photos/global/ic_hamburger.png">
+        <a onclick="drawerOpen()"><img id="hamburger" src="photos/global/ic_hamburger.png"></a>
         <h1>JOINMI</h1>
-        <img id="notification" src="photos/global/ic_notification.png"/>
+        <img id="notification" src="photos/global/ic_magglass.png">
     </header>
+    <a onclick="drawerClose()"><div id="overlay"></div></a>
+    <div id="drawer">
+        <div id="drawerHeader">
+            <div id="headshot" style="background-color:white;"></div>
+            <p id="user" class="drawerHeaderText">NAME</p>
+            <p id="location" class="drawerHeaderText">(location)</p>
+        </div>
+        <div id="drawerBody">
+            <div id="menu">
+                <div class="menuRow">
+                    <img class="drawerIcon" src="photos/global/ic_activeinvites_inactive.png"> 
+                    <p class="menuOption">Active Invitations</p>
+                </div>
+                <div class="menuRow">
+                   <img class="drawerIcon" src="photos/global/ic_createdinvites_inactive.png"> 
+                    <p class="menuOption">Created Events</p>
+                </div>
+                <div class="menuRow">
+                   <img class="drawerIcon" src="photos/global/ic_previnvites_inactive.png"> 
+                    <p class="menuOption">Previous Invitations</p>
+                </div>
+                <div class="menuRow">
+                   <img class="drawerIcon" src="photos/global/ic_social_inactive.png"> 
+                    <p class="menuOption">Social Circles (Groups)</p>
+                </div>
+                <div class="menuRow">
+                   <img class="drawerIcon" src="photos/global/ic_card_inactive.png"> 
+                    <p class="menuOption">Event Cards</p>
+                </div>
+                <div class="menuRow">
+                   <img class="drawerIcon" src="photos/global/ic_util_inactive.png"> 
+                    <p class="menuOption">Utilities</p>
+                </div>
+                <div class="menuRow">
+                   <img class="drawerIcon" src="photos/global/ic_settings_inactive.png"> 
+                    <p class="menuOption">Settings</p>
+                </div>
+            </div>
+        </div>
+    </div>
     
-    <div class="deck">
+     <div class="deck">
         <div id="topCard">
             <div id="deckHeader">
                 <img id="cloud" src="photos/main_interface/bubble_invitedperson.png"/>
