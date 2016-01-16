@@ -53,6 +53,7 @@ h1{
     height: 40px;
 }
 #overlay{
+    visibility: hidden;
     height: 1920px !important;
     width: 1080px !important;
     background-color: black;
@@ -63,6 +64,7 @@ h1{
     top: 0px;
 }
 #drawer{
+    visibility: hidden;
     width:900px;
     height: 1920px !important;
     z-index: 3;
