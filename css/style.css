@@ -16,7 +16,8 @@
 }
 
 html {
-    height: 100%;\
+    height: 627px !important;
+    width: 375px !important;
     background: red; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#751c7b, #371b70); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#751c7b, #371b70); /* For Opera 11.1 to 12.0 */
@@ -25,12 +26,11 @@ html {
 }
 
 body {
-    min-height: 100%;
     margin: 0px
 }
 header{
     background-color:#302E31;
-    width: 100%;
+    width: 375px !important;
     height: 64px;
 }
 #hamburger{
@@ -46,4 +46,65 @@ h1{
 }
 #notification{
     margin:35px 20px 0px 0px;
+}
+#overlay{
+    height: 627px !important;
+    width: 375px !important;
+    background-color: black;
+    opacity: 0.3;
+    z-index: 2;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+#drawer{
+    width:296px;
+    height: 100%;
+    z-index: 3;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: white;
+    box-shadow: 2px 2px 5px #000000;
+}
+#drawerHeader{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: 150px;
+    width:296px;
+    background-color: #302E31;
+}
+#headshot{
+    height:54px;
+    width:54px;
+    border-radius:27px;
+    margin: 30px 0px 0px 15px;
+}
+.drawerHeaderText{
+    font-size: 13px;
+    color: white;
+    margin-left: 15px;
+    margin-bottom: 0px;
+}
+#user{
+    margin-top: 10px;
+    font-family: 'Roboto-Medium';
+}
+#location{
+    margin-top: 0px;
+    font-family: 'Roboto-Regular';
+    float: left;
+}
+#drawerBody{
+    top:151px;
+    height:477px;
+    width: 296px;
+    color:#302E31;
+}
+#menu{
+    height:450px;
+    width:270px;
+    margin: auto;
+    
 }
