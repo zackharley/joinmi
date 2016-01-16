@@ -1,28 +1,32 @@
 .deck {
     background-color: white;
-    width: 330px;
-    height: 480px;
+    width: 935px;
+    height: 1360px;
     margin:auto;
+    margin-top: 164px;
 }
 
 #deckHeader {
     background-color: #FF1876;
-    height: 44px;
+    height: 134px;
     text-align: center;
     color: white;
     font-family: Roboto-Medium;
-    font-size: 16px;
+    font-size: 42px;
    
 }
 
 h3 {
-    margin-right: 68px;
+    float: right;
+    margin-right: 325px;
+    margin-top: 25px;
 }
 
 #cloud {
     float: left;
-    margin-top: -30px;
-    margin-left: 5px;
+    margin-top: -74px;
+    margin-left: 20px;
+    height: 170px;
 }
 
 #writtenContent {
@@ -51,6 +55,10 @@ td {
 
 #location {
     padding-left:25px;
+}
+
+.image {
+    height: 100px;
 }
 
 h3 {
