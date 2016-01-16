@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/main_interface.css">
     <script src="js/jquery-2.2.0.min.js"></script>
     <script src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
@@ -70,6 +70,62 @@
                 </div>
             </div>
         </div>
+    </div>
+    
+     <div class="deck">
+        <div id="topCard">
+            <div id="deckHeader">
+                <img id="cloud" src="photos/main_interface/bubble_invitedperson.png"/>
+                <h3>Event Name</h3>
+            </div>
+            <div id="writtenContent">
+                <table>
+                    <tr>
+                        <td id="location"><img class="image" src="photos/main_interface/ic_location.png"/></td>
+                        <td>Location</td>
+                        <td><!-- location set -->test</td>
+                    </tr>
+                    <tr>
+                        <td><img class="image" src="photos/main_interface/ic_time.png"/></td>
+                        <td>Time</td>
+                        <td><!-- time set -->test</td>
+                    </tr>
+                    <tr>
+                        <td><img class="image" src="photos/main_interface/ic_invited.png"/></td>
+                        <td>Invited</td>
+                        <td><!-- friends set -->test</td>
+                    </tr>
+                        
+                    
+                </table>
+            </div>
+            <div id="profileCircles">
+                <table class="secondTable">
+                    <tr>
+                        <td id="firstRowCircle"><div class="profileCircle"></div></td>
+                        <td><div class="profileCircle"></div></td>
+                        <td><div class="profileCircle"></div></td>
+                        <td><div class="profileCircle"></div></td>
+                        <td><div class="profileCircle"></div></td>
+                    </tr>
+                    <tr>
+                        <td id="secondRowCircle"><div class="profileCircle"></div></td>
+                        <td><div class="profileCircle"></div></td>
+                        <td><div class="profileCircle"></div></td>
+                    </tr>               
+                </table>
+            <img id="redCircle" src="photos/main_interface/button_hover.png"/>
+            </div> 
+            <div class="underlayCard" id="firstUnderlay"></div>
+            <div class="underlayCard" id="secondUnderlay"></div>
+        </div>
+    </div>
+    <!-- <div id="deviceready" class="blink">
+        <p class="event listening">Connecting to Device</p>
+        <p class="event received">Device is Ready</p>
+    </div> default native asset access establishment indication (cordova.js has loaded) -->
+
+
 </body>
 
 
