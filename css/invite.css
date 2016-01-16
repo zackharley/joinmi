@@ -1,7 +1,13 @@
-
-
-footer{
-    height: 80px;
-    width: 100%;
-    background-color:rebeccapurple;
+#main{
+    height: 100%;
+    width:100%;
+}
+#search{   
+    height:35px;
+    width:150px;
+    margin: 20px 0px 0px 112.5;
+    border-radius: 2px;
+    -webkit-appearance: none;
+    border:none;
+    background-color: #663397;
 }
