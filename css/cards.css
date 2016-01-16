@@ -1,0 +1,112 @@
+#banner {
+    background-image: url('photos/cards/bg_starwars.png');
+    width: 1080px;
+    height: 432px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: absolute;
+}
+
+h2 {
+    font-family: 'Roboto-Medium';
+    font-size: 60px;
+    color: white;
+    margin-left: 20px;
+}
+
+.inviteButton {
+    width: 650px;
+    height: 100px;
+    border-radius: 20px;
+    font-family: 'Roboto-Regular';
+    font-size: 40px;
+    color: white;
+    background-color: #E91E63;
+    -webkit-appearance: none;
+    border: none;
+    margin-left: 20px;
+}
+
+.sponsored {
+    margin-top: 100px;
+    width: 1080px;
+}
+
+#cards {
+    position: absolute;
+    top: 583px;
+    margin-top: 30px;
+}
+
+.category {
+    width: 1080px;
+    height: 180px;
+    box-shadow: 2px 2px 5px #000000;
+    margin: 10px 0px;
+}
+
+.red {
+    background-color: #381C69;
+}
+
+.blue {
+    background-color: #4B78C9;
+}
+
+.green {
+    background-color: #73AE2F;
+}
+
+.purple {
+    background-color: #A412C7;
+}
+.cardText{
+    height:180px;
+    margin 10px 0px 10px 20px;
+    color: white;
+    float:left;
+}
+h3{
+    font-family: 'Roboto-Light';
+    font-size:46px;
+    margin: 20px 0px 16px 20px;
+    position: absolute;
+}
+.details{
+    font-family: 'Roboto-Light';
+    font-size: 36px;
+    margin: 96px 0px 20px 20px;
+    position: absolute;
+}
+.categoryIcon{
+    height:194px;
+    margin-top: -2px;
+    flosat:left;
+}
+.videogames{
+    margin-left:800px;
+}
+.movies{
+    margin-left:800px;
+}
+.festivals{
+    margin-left:780px;
+}
+.concerts{
+    margin-left:820px;
+}
+.edit{
+    height: 60px;
+    margin:20px 0px 0px 50px;
+    position: absolute;
+}
+
+#redCircle {
+    position:absolute;
+    height: 150px;
+    width: 150px;
+    left: 900px;
+    top: 1100px;
+}

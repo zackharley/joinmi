@@ -47,5 +47,3 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
-// set to either landscape
-screen.lockOrientation('portrait');

@@ -7,6 +7,8 @@
     color:white;
     background-color: #F5A622;
     margin-left: 145px;
+    -webkit-appearance: none;
+    border:none;
 }
 #logo{
     width: 800px;
