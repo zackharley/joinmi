@@ -1,18 +1,18 @@
 @font-face {
     font-family: 'Roboto-Black';
-    src: url('Roboto-Black.ttf');
+    src: url('../fonts/Roboto-Black.ttf');
 }
 @font-face {
     font-family: 'Roboto-Light';
-    src: url('Roboto-Light.ttf');
+    src: url('../fonts/Roboto-Light.ttf');
 }
 @font-face {
     font-family: 'Roboto-Medium';
-    src: url('Roboto-Medium.ttf');
+    src: url('../fonts/Roboto-Medium.ttf');
 }
 @font-face {
     font-family: 'Roboto-Regular';
-    src: url('Roboto-Regular.ttf');
+    src: url('../fonts/Roboto-Regular.ttf');
 }
 
 html {
@@ -22,4 +22,23 @@ html {
 body {
     min-height: 100%;
     margin: 0px
+}
+header{
+    background-color:#302E31;
+    width: 100%;
+    height: 64px;
+}
+#hamburger{
+    margin: 35px 0px 0px 20px;
+    float: left;
+}
+h1{
+    color: white;
+    font-family: 'Roboto-Black';
+    font-size: 18px;
+    float:left;
+    margin: 30px 115px 0px 115px;
+}
+#notification{
+    margin:35px 20px 0px 0px;
 }
