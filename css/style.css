@@ -16,8 +16,8 @@
 }
 
 html {
-    height: 627px !important;
-    width: 375px !important;
+    height: 1334px !important;
+    width: 750px !important;
 }
 
 body {
@@ -27,29 +27,34 @@ body {
     background: -o-linear-gradient(#751c7b, #371b70); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#751c7b, #371b70); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#751c7b, #371b70); /* Standard syntax */
+    height: 1334px !important;
+    width: 750px !important;
 }
 header{
     background-color:#302E31;
-    width: 375px !important;
-    height: 64px;
+    width: 750px !important;
+    height: 128px;
+    z-index: 1;
 }
 #hamburger{
-    margin: 35px 0px 0px 20px;
+    margin: 70px 0px 0px 40px;
     float: left;
+    height: 24px;
 }
 h1{
     color: white;
     font-family: 'Roboto-Black';
-    font-size: 18px;
+    font-size: 36px;
     float:left;
-    margin: 30px 115px 0px 115px;
+    margin: 60px 230px 0px 230px;
 }
 #notification{
-    margin:35px 20px 0px 0px;
+    margin:70px 40px 0px 0px;
+    height: 24px;
 }
 #overlay{
-    height: 627px !important;
-    width: 375px !important;
+    height: 1334px !important;
+    width: 750px !important;
     background-color: black;
     opacity: 0.3;
     z-index: 2;
@@ -58,37 +63,37 @@ h1{
     top: 0px;
 }
 #drawer{
-    width:296px;
-    height: 627px !important;
+    width:592px;
+    height: 1334px !important;
     z-index: 3;
-    position: fixed;
+    position: absolute;
     left: 0px;
     top: 0px;
     background-color: white;
     box-shadow: 2px 2px 5px #000000;
 }
 #drawerHeader{
-    position: fixed;
+    position: absolute;
     left: 0px;
     top: 0px;
-    height: 150px;
-    width:296px;
+    height: 300px;
+    width:592px;
     background-color: #302E31;
 }
 #headshot{
-    height:54px;
-    width:54px;
-    border-radius:27px;
-    margin: 30px 0px 0px 15px;
+    height:108px;
+    width:108px;
+    border-radius:54px;
+    margin: 60px 0px 0px 30px;
 }
 .drawerHeaderText{
-    font-size: 13px;
+    font-size: 26px;
     color: white;
-    margin-left: 15px;
+    margin-left: 30px;
     margin-bottom: 0px;
 }
 #user{
-    margin-top: 10px;
+    margin-top: 20px;
     font-family: 'Roboto-Medium';
 }
 #location{
@@ -97,13 +102,13 @@ h1{
     float: left;
 }
 #drawerBody{
-    top:151px;
-    height:477px;
-    width: 296px;
+    top:301px;
+    height:954px;
+    width:592px;
     color:#302E31;
 }
 #menu{
-    height:450px;
+    height:900px;
     width:270px;
     margin: auto;
     
