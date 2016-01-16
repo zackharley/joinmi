@@ -9,7 +9,7 @@
     <script src="jquery_mobile-1.4.5.js"></script>
     <script>
         $(function () {
-            $("body").bind("tap", tapHandler);
+            $("#body").bind("tap", tapHandler);
 
             function tapHandler(event) {
                 $(event.target).addClass("tap");
@@ -18,7 +18,7 @@
     </script>
 </head>
 
-<body style="background-color:green;">
+<body id="body" style="background-color:green;">
 
 </body>
 </html
