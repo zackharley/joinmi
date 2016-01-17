@@ -1,5 +1,61 @@
-.groupCard{
-    height: 600px;
-    width: 1080px;
-    background-color:white;
+#cardBox {
+    margin-top: 140px;
+}
+
+.groupCard {
+    height: 340px;
+    width: 1040px;
+    background-color: white;
+    box-shadow: 2px 2px 5px #000000;
+    margin: 10px 0px;
+    padding: 20px;
+}
+
+h2 {
+    font-family: 'Roboto-Regular';
+    font-size: 46px;
+    color: #676667;
+    float: left;
+}
+
+.date {
+    font-family: 'Roboto-light';
+    font-size: 36px;
+    color: #AFAEAF;
+    text-align: right;
+    float: right;
+}
+
+.headshot {
+    float: left;
+    border-radius: 60px;
+    height: 120px;
+    width: 120px;
+    margin: 0px 18px;
+}
+
+#headcase1 {
+    position: absolute;
+    top: 400px;
+}
+
+#headcase2 {
+    position: absolute;
+    top: 780px;
+}
+
+#headcase3 {
+    position: absolute;
+    top: 1160px;
+}
+
+.plus {
+    background-color: #D8D8D8;
+}
+
+.plusText {
+    color: #9A999A;
+    font-family: "Roboto-Light";
+    font-size: 36px;
+    text-align: center;
 }
