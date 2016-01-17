@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="138px" height="163px" viewBox="0 0 138 163" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>Mascot</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#28325F" offset="0%"></stop>
+            <stop stop-color="#1D2858" offset="100%"></stop>
+        </linearGradient>
+        <path id="path-2" d="M110.689201,61.8966401 C107.676353,32.629225 89.0466527,8.90329731 69.0785997,8.90329731 C49.1105467,8.90329731 30.480846,32.629225 27.4679985,61.8966401 C24.455151,91.1640551 43.0848517,114.889983 69.0785997,114.889983 C95.0723476,114.889983 113.702048,91.1640551 110.689201,61.8966401 Z"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-9">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="loading-screen" sketch:type="MSArtboardGroup" transform="translate(-119.000000, -256.000000)">
+            <g id="Mascot" sketch:type="MSLayerGroup" transform="translate(119.000000, 256.000000)">
+                <g id="Shirt" transform="translate(0.000000, 38.000000)">
+                    <path d="M12.6472764,100.199281 C10.9527729,94.3718026 16.2057928,68.198281 24.3802248,41.739084 C32.5546567,15.279887 40.5550095,-1.44542568 42.2495129,4.38205249 C43.9440164,10.2095307 38.6909964,36.3830523 30.5165645,62.8422492 C22.3421326,89.3014462 14.3417798,106.026759 12.6472764,100.199281 L12.6472764,100.199281 L12.6472764,100.199281 Z" id="Oval-17-Copy" fill="#293258" sketch:type="MSShapeGroup" transform="translate(27.448395, 52.290667) rotate(15.000000) translate(-27.448395, -52.290667) "></path>
+                    <path d="M114.076922,41.739084 C105.90249,15.279887 97.9021376,-1.44542568 96.2076342,4.38205249 C94.5131307,10.2095307 99.7661507,36.3830523 107.940583,62.8422492 C116.115014,89.3014462 124.115367,106.026759 125.809871,100.199281 C127.504374,94.3718026 122.251354,68.198281 114.076922,41.739084 Z" id="Oval-17" fill="#293258" sketch:type="MSShapeGroup" transform="translate(111.008752, 52.290667) rotate(-15.000000) translate(-111.008752, -52.290667) "></path>
+                    <mask id="mask-3" sketch:name="Mask" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="Mask" fill="url(#linearGradient-1)" sketch:type="MSShapeGroup" xlink:href="#path-2"></use>
+                    <path d="M101.642033,74.0003725 C95.6532742,49.3183152 81.0709062,29.3095543 69.0714023,29.3095543 C57.0718985,29.3095543 42.5213353,49.3183152 36.5718098,74.0003725 C30.6222842,98.6824299 45.2046523,118.691191 69.1424404,118.691191 C93.0802285,118.691191 107.630792,98.6824299 101.642033,74.0003725 Z" id="Oval-29" fill="#F0F2F5" filter="url(#filter-4)" sketch:type="MSShapeGroup" mask="url(#mask-3)"></path>
+                </g>
+                <path d="M111.921723,115.840565 C115.485987,115.211968 117.69692,116.717573 117.624702,120.442594 C117.621471,120.609288 117.613696,120.7789 117.601465,120.9513 C121.16487,121.579955 122.726988,123.750841 121.385253,127.226102 C119.744223,131.476575 114.170182,136.614145 107.205713,140.765469 C106.319512,142.671392 105.336608,144.535109 104.269096,146.306692 C97.896208,156.882774 90.921246,160.170347 88.6900818,153.649691 C86.4589177,147.129035 89.8164479,133.269391 96.1893354,122.693308 C102.562223,112.117226 109.537185,108.829653 111.768349,115.350309 C111.822788,115.50941 111.873901,115.67288 111.921723,115.840565 Z" id="R-Foot-Copy" fill="#F6A623" filter="url(#filter-5)" sketch:type="MSShapeGroup"></path>
+                <path d="M39.921723,115.840565 C43.4859874,115.211968 45.6969197,116.717573 45.6247024,120.442594 C45.6214707,120.609288 45.6136964,120.7789 45.6014654,120.9513 C49.1648702,121.579955 50.7269879,123.750841 49.3852531,127.226102 C47.7442234,131.476575 42.1701822,136.614145 35.2057133,140.765469 C34.3195122,142.671392 33.3366079,144.535109 32.2690955,146.306692 C25.896208,156.882774 18.921246,160.170347 16.6900818,153.649691 C14.4589177,147.129035 17.8164479,133.269391 24.1893354,122.693308 C30.5622229,112.117226 37.537185,108.829653 39.7683491,115.350309 C39.8227884,115.50941 39.8739006,115.67288 39.921723,115.840565 Z" id="R-Foot-Copy-3" fill="#F6A623" filter="url(#filter-6)" sketch:type="MSShapeGroup" transform="translate(33.000000, 134.500000) scale(-1, 1) translate(-33.000000, -134.500000) "></path>
+                <path d="M99.4744209,29.5 C102.870773,13.2075999 89.4507673,0 69.5,0 C49.5492327,0 36.1292273,13.2075999 39.5255791,29.5 C42.9219308,45.7924001 56.3419362,59 69.5,59 C82.6580638,59 96.0780692,45.7924001 99.4744209,29.5 Z" id="Head" fill="#28325F" sketch:type="MSShapeGroup"></path>
+                <path d="M80.441534,50 C82.7198476,46.1340068 77.821156,43 69.5,43 C61.178844,43 56.2801524,46.1340068 58.558466,50 C60.8367797,53.8659932 65.7354713,57 69.5,57 C73.2645287,57 78.1632203,53.8659932 80.441534,50 Z" id="Oval-52" fill="#F6A623" filter="url(#filter-7)" sketch:type="MSShapeGroup"></path>
+                <g id="Hap-Orbs" transform="translate(45.000000, 20.000000)" fill="#F0F2F5" sketch:type="MSShapeGroup">
+                    <ellipse id="Oval-16" filter="url(#filter-8)" cx="33.9949189" cy="12.7136576" rx="2.88919289" ry="4.23788588"></ellipse>
+                    <ellipse id="Oval-16-Copy" filter="url(#filter-9)" cx="14.0939668" cy="12.7136576" rx="2.88919289" ry="4.23788588"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

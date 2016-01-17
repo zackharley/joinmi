@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="112px" height="123px" viewBox="0 0 112 123" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>bubble</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="loading-screen" sketch:type="MSArtboardGroup" transform="translate(-132.000000, -108.000000)">
+            <g id="bubble" sketch:type="MSLayerGroup" transform="translate(136.000000, 110.000000)">
+                <path d="M0,49.7334458 C0,72.385363 15.85025,91.4631418 37.5115,97.4695791 L52,116 L66.49175,97.4695791 C88.14975,91.4631418 104,72.385363 104,49.7334458 C104,22.2676791 80.72025,0 52,0 C23.27975,0 0,22.2676791 0,49.7334458 Z" id="bubble_invitedperson" fill="#E91E63" filter="url(#filter-1)" sketch:type="MSShapeGroup"></path>
+                <text id="JOINMI" sketch:type="MSTextLayer" font-family="Roboto" font-size="24" font-weight="bold" fill="#FAFAFA">
+                    <tspan x="11" y="60">JOINMI</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
