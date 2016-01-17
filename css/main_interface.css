@@ -162,7 +162,8 @@
         margin-left: 2px;
     }
 .float{
-    float: left;position:absolute;
+    float: left;
+    position:absolute;
 }
 .paramRow{
     margin-left: 20px;

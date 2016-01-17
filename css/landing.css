@@ -15,7 +15,8 @@
     color: white !important;
 }
 a{
-    color:white !important;
+    color: white !important;
+    text-decoration: none;
 }
 #logo{
     width: 400px;
@@ -33,7 +34,7 @@ a{
     height: 100px;
 }
 .socialLogin{
-    margin: 0px;
+    margin: 0px 40px;
 }
 #blurb{
     background-image: url("../photos/landing/joinmi_bubble.svg");

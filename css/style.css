@@ -171,8 +171,8 @@ h1 {
     margin: 10px 60px;
 }
 a{
-    color: #302E31 !important;
     text-decoration: none;
+    text-color: none;
 }
 #searchField{
     font-family: 'Roboto-Light';
