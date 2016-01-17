@@ -8,7 +8,14 @@ function drawerClose() {
 }
 
 $('document').ready(function () {
+    var check = 0;
     $('#notification').click(function () {
-        $("#search").slideDown("slow");
+        if(check === 0){
+            $("#search").slideDown("slow");
+            check = 1;
+        } else{
+            $("#search").slideUp("slow");
+            check = 0;
+        }        
     });
 });
