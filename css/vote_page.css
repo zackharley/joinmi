@@ -1,0 +1,104 @@
+#headerTitle {
+    padding-right: 55px;
+    font-family: Roboto-Medium;
+}
+
+#deckHeader {
+    background-color: #e62565;
+}
+
+#redPlusCircle {
+    float: right;
+    margin-right: -25px;
+    padding-top: 730px;
+}
+
+.deck {
+    height: 1480px;
+}
+
+#voteText {
+    float: left;
+    margin-left: -130px;
+    margin-top: -25px;
+}
+
+.votingBar {
+    float: right;
+    height: 120px;
+    width: 904px;
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+    margin-right: 15px;
+    box-shadow: 1px 5px 5px -6px;
+    margin-top: 7px;
+    
+}
+
+.event {
+    font-family: Roboto-Regular;
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
+.eventInformation {
+    opacity: 0.5;
+    font-family: Roboto-Regular;
+}
+
+.scoreVoter {
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-top: 12px;
+    position: absolute;
+}
+
+.triangle {
+    height: 20px;
+    margin-left: 52px;
+    margin-bottom: -5px;
+}
+
+
+.score {
+    
+    font-family: Roboto-Regular;
+    color: #ea618f;
+    padding-left: 30px;
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+h1 {
+    float: right;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 270px; 
+}
+
+.contentWritten {
+    float: left;
+    margin-left: 140px;
+}
+
+#firstbar {
+    z-index: 1;
+}
+
+#secondbar {
+    z-index: 2;
+}
+
+#thirdbar {
+    z-index: 3;
+}
+
+#fourthbar {
+    z-index: 4;
+}
