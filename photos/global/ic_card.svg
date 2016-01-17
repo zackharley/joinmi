@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="19px" height="16px" viewBox="0 0 19 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_card</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="iPhone-6" sketch:type="MSArtboardGroup" transform="translate(-23.000000, -367.000000)" fill="#727272">
+            <g id="side-nav" sketch:type="MSLayerGroup">
+                <g id="list" transform="translate(20.137085, 184.759019)" sketch:type="MSShapeGroup">
+                    <g id="icons" transform="translate(0.000000, 1.000000)">
+                        <g id="event_cards" transform="translate(0.862915, 178.002546)">
+                            <path d="M20.0802802,9.74434205 L20.0802802,6.14434205 C20.0802802,5.15014205 19.0872802,4.14154205 18.0930802,4.14154205 L3.69308015,4.14154205 C2.69828015,4.14154205 2.08028015,5.15014205 2.08028015,6.14434205 L2.08028015,9.74434205 C3.28028015,9.74434205 3.88028015,10.5501421 3.88028015,11.5443421 C3.88028015,12.5385421 3.28028015,13.3443421 2.08028015,13.3443421 L2.08028015,16.9443421 C2.08028015,17.9385421 2.69828015,18.5415421 3.69308015,18.5415421 L18.0930802,18.5415421 C19.0872802,18.5415421 20.0802802,17.9385421 20.0802802,16.9443421 L20.0802802,13.3443421 C18.8802802,13.3443421 18.2802802,12.5385421 18.2802802,11.5443421 C18.2802802,10.5501421 18.8802802,9.74434205 20.0802802,9.74434205 L20.0802802,9.74434205 Z M13.8066802,16.0287421 L10.8930802,14.4963421 L7.97948015,16.0287421 L8.53628015,12.7839421 L6.17828015,10.4859421 L9.43688015,10.0125421 L10.8936802,7.06054205 L12.3504802,10.0125421 L15.6090802,10.4859421 L13.2510802,12.7839421 L13.8066802,16.0287421 L13.8066802,16.0287421 Z" id="ic_card"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
