@@ -1,7 +1,6 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/cards.css">
     <script src="js/jquery-2.2.0.min.js"></script>
     <script src="cordova.js"></script>
@@ -32,6 +31,9 @@
         <h1>JOINMI</h1>
         <img id="notification" src="photos/global/ic_magglass.png">
     </header>
+    <div id="search">
+        <input id="searchField">
+    </div>
     <a onclick="drawerClose()">
         <div id="overlay"></div>
     </a>
@@ -77,7 +79,7 @@
     <div id="banner" style="background-image: url('photos/cards/bg_starwars.png');)">
         <h2>STAR WARS PREMIERE</h2>
         <button class="inviteButton">Invite Friends!</button>
-        <img class="sponsored" src="photos/cards/banner_sponsored.png">
+        <img class="sponsored" src="photos/cards/banner_sponsored.png" style="margin-top:100px;">
     </div>
     <div id="cards">
         <div class="category red">
