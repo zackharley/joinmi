@@ -6,3 +6,9 @@ function drawerClose() {
     $('#overlay').css('visibility', 'hidden');
     $('#drawer').css('visibility', 'hidden');
 }
+
+$('document').ready(function () {
+    $('#notification').click(function () {
+        $("#search").slideDown("slow");
+    });
+});

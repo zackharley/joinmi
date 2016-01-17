@@ -1,7 +1,6 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/cards.css">
     <script src="js/jquery-2.2.0.min.js"></script>
     <script src="cordova.js"></script>
@@ -32,52 +31,14 @@
         <h1>JOINMI</h1>
         <img id="notification" src="photos/global/ic_magglass.png">
     </header>
-    <a onclick="drawerClose()">
+    <div id="search">
+        <input id="searchField">
+    </div>
+    <a href="">
         <div id="overlay"></div>
     </a>
-    <div id="drawer">
-        <div id="drawerHeader">
-            <div id="headshot" style="background-color:white;"></div>
-            <p id="user" class="drawerHeaderText">NAME</p>
-            <p id="location" class="drawerHeaderText">(location)</p>
-        </div>
-        <div id="drawerBody">
-            <div id="menu">
-                <div class="menuRow">
-                    <img class="drawerIcon" src="photos/global/ic_activeinvites_inactive.png">
-                    <p class="menuOption">Active Invitations</p>
-                </div>
-                <div class="menuRow">
-                    <img class="drawerIcon" src="photos/global/ic_createdinvites_inactive.png">
-                    <p class="menuOption">Created Events</p>
-                </div>
-                <div class="menuRow">
-                    <img class="drawerIcon" src="photos/global/ic_previnvites_inactive.png">
-                    <p class="menuOption">Previous Invitations</p>
-                </div>
-                <div class="menuRow">
-                    <img class="drawerIcon" src="photos/global/ic_social_inactive.png">
-                    <p class="menuOption">Social Circles (Groups)</p>
-                </div>
-                <div class="menuRow">
-                    <img class="drawerIcon" src="photos/global/ic_card_inactive.png">
-                    <p class="menuOption">Event Cards</p>
-                </div>
-                <div class="menuRow">
-                    <img class="drawerIcon" src="photos/global/ic_util_inactive.png">
-                    <p class="menuOption">Utilities</p>
-                </div>
-                <div class="menuRow">
-                    <img class="drawerIcon" src="photos/global/ic_settings_inactive.png">
-                    <p class="menuOption">Settings</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="banner">
-        <h2>STAR WARS PREMIERE</h2>
-        <button class="inviteButton">Invite Friends!</button>
-        <img class="sponsored" src="photos/cards/banner_sponsored.png">
+    <div id="banner" style="background-image: url('photos/cards/hackthe6ix.png');)">
+        <img class="sponsored" src="photos/cards/banner_sponsored.png" >
     </div>
     <div id="cards">
         <div class="category red">
@@ -111,10 +72,9 @@
             </div>
             <img class="categoryIcon concerts" src="photos/cards/bg_concerts.png">
             <img class="edit" src="photos/cards/ic_edit.png" style="margin-left: 64px">
-            <img 
+            <img </div>
         </div>
-    </div>
-    <img id="redCircle" src="photos/main_interface/button_hover.png"/>
+        <img id="redCircle" src="photos/main_interface/button_hover.png" />
 </body>
 
 

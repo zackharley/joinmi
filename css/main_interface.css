@@ -1,165 +1,187 @@
-.deck {
-    background-color: white;
-    width: 935px;
-    height: 1360px;
-    margin:auto;
-    margin-top: 164px;
-}
-
-#deckHeader {
-    background-color: #FF1876;
-    height: 134px;
-    text-align: center;
-    color: white;
-    font-family: Roboto-Medium;
-    font-size: 42px;
-   
-}
-
-h3 {
-    float: right;
-    margin-right: 325px;
-    margin-top: 25px;
-}
-
-#cloud {
-    float: left;
-    margin-top: -74px;
-    margin-left: 20px;
-    height: 170px;
-}
-
-#writtenContent {
-    margin-top: 24px;
-}
-
-td {
-    padding-bottom: 16px;
-    font-size: 14px;
-}
-
-#writtenContent td:first-child {
-    padding-left: 23px;
-}
-
-#writtenContent td:nth-child(2) {
-    padding-left: 26px;
-    color: #4A4A4A;
-    font-family: Roboto-Regular;
-}
-
-#writtenContent td:nth-child(3) {
-    padding-left: 26px;
-    font-family: Roboto-Medium;
-}
-
-#location {
-    padding-left:25px;
-}
-
-.image {
-    height: 100px;
-}
-
-h3 {
-    padding-top: 7px;
-}
-
-#profileCircles {
-    height: 292px;
-    box-shadow: 1px 5px 5px -2px #939393;
-    position: relative;
-}
-
-#profileCircles td {
-    padding-bottom: 2px;
-    padding-right: 6px;
-}
-
-#firstRowCircle {
-    padding-left: 23px;
-}
-
-#secondRowCircle {
-    padding-left: 23px;
-}
-.profileCircle {
-    border-radius: 100%;
-    background: grey;
-    height: 50px;
-    width: 50px;
+    .deck {
+        background-color: white;
+        width: 935px;
+        height: 1360px;
+        margin: auto;
+        margin-top: 164px;
+    }
     
-}
+    #deckHeader {
+        background-color: #FF1876;
+        height: 134px;
+        text-align: center;
+        color: white;
+        font-family: Roboto-Medium;
+        font-size: 42px;
+    }
+    
+    h3 {
+        text-align: center;
+        position: relative;
+        top: 20px;
+    }
+    
+    #cloud {
+        position: absolute;
+        top: 200px;
+        left: 100px;
+        z-index=10;
+        height: 170px;
+    }
+    
+    #writtenContent {
+        margin-top: 24px;
+    }
+    
+    td {
+        padding-bottom: 16px;
+        font-size: 36px;
+    }
+    
+    #writtenContent td:first-child {
+        padding-left: 23px;
+    }
+    
+    #writtenContent td:nth-child(2) {
+        padding-left: 26px;
+        color: #4A4A4A;
+        font-family: Roboto-Regular;
+    }
+    
+    #writtenContent td:nth-child(3) {
+        padding-left: 26px;
+        font-family: Roboto-Medium;
+    }
+    
+    #location {
+        padding-left: 25px;
+    }
+    
+    .image {
+        height: 80px;
+        margin: 20px 40px;
+    }
+    
+    h3 {
+        padding-top: 7px;
+    }
+    
+    #profileCircles {
+        height: 795px;
+        box-shadow: 1px 5px 5px -2px #939393;
+        position: relative;
+    }
+    
+    #profileCircles td {
+        padding: 
+    }
+    
+    #firstRowCircle {
+        padding-left: 60px;
+    }
+    
+    #secondRowCircle {
+        padding-left: 60px;
+    }
+    
+    .profileCircle {
+        border-radius: 100%;
+        background: grey;
+        height: 130px;
+        width: 130px;
+        margin: 0px 18px;
+    }
+    
+    .underlayCard {
+        height: 10px;
+        background-color: white;
+        position: relative;
+    }
+    
+    #firstUnderlay {
+        z-index: -1;
+        box-shadow: 1px 5px 5px -2px #939393;
+        border-top: 1px solid #fafafa;
+        border-bottom: 1px solid #fafafa;
+    }
+    
+    #secondUnderlay {
+        z-index: -2;
+    }
+    
+    #redCircle {
+        position:absolute;
+        top: 700px;
+        left: 850px;
+    }
+    
+    html {
+        height: 100%;
+    }
+    
+    background: red;
+    /* For browsers that do not support gradients */
+    
+    @font-face {
+        font-family: 'Roboto-Black';
+        src: url('../fonts/Roboto-Black.ttf');
+    }
+    
+    @font-face {
+        font-family: 'Roboto-Light';
+        src: url('../fonts/Roboto-Light.ttf');
+    }
+    
+    @font-face {
+        font-family: 'Roboto-Medium';
+        src: url('../fonts/Roboto-Medium.ttf');
+    }
+    
+    @font-face {
+        font-family: 'Roboto-Regular';
+        src: url('../fonts/Roboto-Regular.ttf');
+    }
+    
+    html {
+        height: 100%;
+    }
+    
+    body {
+        min-height: 100%;
+        margin: 0px
+    }
+    
+    header {
+        background-color: #302E31;
+        width: 100%;
+        height: 64px;
+    }
+    
+    #hamburger {
+        margin: 35px 0px 0px 20px;
+        float: left;
+    }
+    
+    h1 {
+        color: white;
+        font-family: 'Roboto-Black';
+        font-size: 18px;
+        float: left;
+        margin: 30px 115px 0px 115px;
+    }
+    
+    #notification {
+        margin: 35px 20px 0px 0px;
+    }
+    
+    a {
+        color: none;
+    }
 
-.underlayCard {
-    height: 10px;
-    background-color: white;
-    position: relative;
-}
-
-#firstUnderlay {
-    z-index: -1;
-    box-shadow: 1px 5px 5px -2px #939393;
-    border-top: 1px solid #fafafa;
-    border-bottom: 1px solid #fafafa;
-}
-
-#secondUnderlay {
-    z-index: -2;
-}
-
-#redCircle {
-    float: right;
-    padding-top: 154px;
-    margin-right: -15px;
-}
-
-
-html {
-    height: 100%;\
-    background: red; /* For browsers that do not support gradients */
-
-@font-face {
-    font-family: 'Roboto-Black';
-    src: url('../fonts/Roboto-Black.ttf');
-}
-@font-face {
-    font-family: 'Roboto-Light';
-    src: url('../fonts/Roboto-Light.ttf');
-}
-@font-face {
-    font-family: 'Roboto-Medium';
-    src: url('../fonts/Roboto-Medium.ttf');
-}
-@font-face {
-    font-family: 'Roboto-Regular';
-    src: url('../fonts/Roboto-Regular.ttf');
-}
-
-html {
-    height: 100%;
-}
-
-body {
-    min-height: 100%;
-    margin: 0px
-}
-header{
-    background-color:#302E31;
-    width: 100%;
-    height: 64px;
-}
-#hamburger{
-    margin: 35px 0px 0px 20px;
-    float: left;
-}
-h1{
+#plus{
     color: white;
     font-family: 'Roboto-Black';
-    font-size: 18px;
-    float:left;
-    margin: 30px 115px 0px 115px;
-}
-#notification{
-    margin:35px 20px 0px 0px;
+    text-align: center;
+    font-size: 90px;
+    margin:-5px 0px 0px -5px;;
 }

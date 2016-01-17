@@ -1,5 +1,4 @@
 #banner {
-    background-image: url('photos/cards/bg_starwars.png');
     width: 1080px;
     height: 432px;
     -webkit-background-size: cover;
@@ -30,7 +29,7 @@ h2 {
 }
 
 .sponsored {
-    margin-top: 100px;
+    margin-top: 378px;
     width: 1080px;
 }
 
@@ -83,10 +82,9 @@ h3{
 .categoryIcon{
     height:194px;
     margin-top: -2px;
-    flosat:left;
 }
 .videogames{
-    margin-left:800px;
+    margin-left:805px;
 }
 .movies{
     margin-left:800px;
@@ -108,5 +106,5 @@ h3{
     height: 150px;
     width: 150px;
     left: 900px;
-    top: 1100px;
+    top: 1750px;
 }

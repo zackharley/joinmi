@@ -10,7 +10,7 @@
     </script>
     <script type="text/javascript" src="js/transit.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
-
+    <script type="text/javascript" src="js/main_interface.js"></script>
     <meta charset="utf-8" />
     <meta name="format-detection" content="telephone=no" />
     <!-- APPLE FEATURE, allows for detection of phone numbers, although due to some issues w/ 'too many numbers being selected', it is set to 'no' aka off by default -->
@@ -31,91 +31,122 @@
         <h1>JOINMI</h1>
         <img id="notification" src="photos/global/ic_magglass.png">
     </header>
-    <a onclick="drawerClose()"><div id="overlay"></div></a>
+    <div id="search">
+        <input id="searchField">
+    </div>
+    <a onclick="drawerClose()">
+        <div id="overlay"></div>
+    </a>
     <div id="drawer">
         <div id="drawerHeader">
             <div id="headshot" style="background-color:white;"></div>
             <p id="user" class="drawerHeaderText">NAME</p>
-            <p id="location" class="drawerHeaderText">(location)</p>
+            <p id="location" class="drawerHeaderText">Toronto, ON</p>
         </div>
         <div id="drawerBody">
             <div id="menu">
                 <div class="menuRow">
-                    <img class="drawerIcon" src="photos/global/ic_activeinvites_inactive.png"> 
+                    <img class="drawerIcon" src="photos/global/ic_activeinvites_inactive.png">
                     <p class="menuOption">Active Invitations</p>
                 </div>
                 <div class="menuRow">
-                   <img class="drawerIcon" src="photos/global/ic_createdinvites_inactive.png"> 
+                    <img class="drawerIcon" src="photos/global/ic_createdinvites_inactive.png">
                     <p class="menuOption">Created Events</p>
                 </div>
                 <div class="menuRow">
-                   <img class="drawerIcon" src="photos/global/ic_previnvites_inactive.png"> 
+                    <img class="drawerIcon" src="photos/global/ic_previnvites_inactive.png">
                     <p class="menuOption">Previous Invitations</p>
                 </div>
                 <div class="menuRow">
-                   <img class="drawerIcon" src="photos/global/ic_social_inactive.png"> 
-                    <p class="menuOption">Social Circles (Groups)</p>
+                    <a href="groups.html">
+                        <img class="drawerIcon" src="photos/global/ic_social_inactive.png">
+                        <p class="menuOption">Social Circles (Groups)</p>
+                    </a>
                 </div>
                 <div class="menuRow">
-                   <img class="drawerIcon" src="photos/global/ic_card_inactive.png"> 
+                   <a href="cards-starwars.html">
+                    <img class="drawerIcon" src="photos/global/ic_card_inactive.png">
                     <p class="menuOption">Event Cards</p>
+                    </a>
                 </div>
                 <div class="menuRow">
-                   <img class="drawerIcon" src="photos/global/ic_util_inactive.png"> 
+                    <img class="drawerIcon" src="photos/global/ic_util_inactive.png">
                     <p class="menuOption">Utilities</p>
                 </div>
                 <div class="menuRow">
-                   <img class="drawerIcon" src="photos/global/ic_settings_inactive.png"> 
+                    <img class="drawerIcon" src="photos/global/ic_settings_inactive.png">
                     <p class="menuOption">Settings</p>
                 </div>
             </div>
         </div>
     </div>
-    
-     <div class="deck">
+
+    <div class="deck">
         <div id="topCard">
+           <img id="cloud" src="photos/main_interface/bubble_invitedperson1.png" />
             <div id="deckHeader">
-                <img id="cloud" src="photos/main_interface/bubble_invitedperson.png"/>
-                <h3>Event Name</h3>
+                <h3>Bowling</h3>
             </div>
             <div id="writtenContent">
                 <table>
                     <tr>
-                        <td id="location"><img class="image" src="photos/main_interface/ic_location.png"/></td>
+                        <td id="location"><img class="image" src="photos/main_interface/ic_location.png" /></td>
                         <td>Location</td>
-                        <td><!-- location set -->test</td>
+                        <td>
+                            Bombshelter Pub</td>
                     </tr>
                     <tr>
-                        <td><img class="image" src="photos/main_interface/ic_time.png"/></td>
+                        <td><img class="image" src="photos/main_interface/ic_time.png" /></td>
                         <td>Time</td>
-                        <td><!-- time set -->test</td>
+                        <td>
+                            10:00 p.m.</td>
                     </tr>
                     <tr>
-                        <td><img class="image" src="photos/main_interface/ic_invited.png"/></td>
+                        <td><img class="image" src="photos/main_interface/ic_invited.png" /></td>
                         <td>Invited</td>
-                        <td><!-- friends set -->test</td>
+                        <td>
+                            8 friends</td>
                     </tr>
-                        
-                    
+
+
                 </table>
             </div>
             <div id="profileCircles">
                 <table class="secondTable">
                     <tr>
-                        <td id="firstRowCircle"><div class="profileCircle"></div></td>
-                        <td><div class="profileCircle"></div></td>
-                        <td><div class="profileCircle"></div></td>
-                        <td><div class="profileCircle"></div></td>
-                        <td><div class="profileCircle"></div></td>
+                        <td id="firstRowCircle">
+                            <img src="photos/headshots/128%20(23).jpg" class="profileCircle" style="margin-left:0px;"></div>
+                        </td>
+                        <td>
+                            <img src="photos/headshots/128%20(24).jpg" class="profileCircle"></div>
+                        </td>
+                        <td>
+                            <img src="photos/headshots/128%20(26).jpg" class="profileCircle"></div>
+                        </td>
+                        <td>
+                            <img src="photos/headshots/128%20(27).jpg" class="profileCircle"></div>
+                        </td>
+                        <td>
+                            <img src="photos/headshots/128%20(28).jpg" class="profileCircle"></div>
+                        </td>
                     </tr>
                     <tr>
-                        <td id="secondRowCircle"><div class="profileCircle"></div></td>
-                        <td><div class="profileCircle"></div></td>
-                        <td><div class="profileCircle"></div></td>
-                    </tr>               
+                        <td id="secondRowCircle">
+                            <img src="photos/headshots/128%20(29).jpg" class="profileCircle" style="margin-left:0px;"></div>
+                        </td>
+                        <td>
+                            <img src="photos/headshots/128%20(30).jpg" class="profileCircle"></div>
+                        </td>
+                        <td>
+                            <img src='photos/headshots/128%20(22).jpg' class="profileCircle"></div>
+                        </td>
+                        <td>
+                            <div class="profileCircle"><p id="plus">+</p></div>
+                        </td>
+                    </tr>
                 </table>
-            <img id="redCircle" src="photos/main_interface/button_hover.png"/>
-            </div> 
+                <img id="redCircle" src="photos/main_interface/button_hover.png" />
+            </div>
             <div class="underlayCard" id="firstUnderlay"></div>
             <div class="underlayCard" id="secondUnderlay"></div>
         </div>

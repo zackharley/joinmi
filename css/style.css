@@ -2,14 +2,17 @@
     font-family: 'Roboto-Black';
     src: url('../fonts/Roboto-Black.ttf');
 }
+
 @font-face {
     font-family: 'Roboto-Light';
     src: url('../fonts/Roboto-Light.ttf');
 }
+
 @font-face {
     font-family: 'Roboto-Medium';
     src: url('../fonts/Roboto-Medium.ttf');
 }
+
 @font-face {
     font-family: 'Roboto-Regular';
     src: url('../fonts/Roboto-Regular.ttf');
@@ -22,37 +25,47 @@ html {
 
 body {
     margin: 0px;
-    background: red; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#751c7b, #371b70); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#751c7b, #371b70); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#751c7b, #371b70); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#751c7b, #371b70); /* Standard syntax */
+    background: red;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#751c7b, #371b70);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#751c7b, #371b70);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#751c7b, #371b70);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#751c7b, #371b70);
+    /* Standard syntax */
     height: 1920px !important;
     width: 1080px !important;
 }
-header{
-    background-color:#302E31;
+
+header {
+    background-color: #302E31;
     width: 1080px !important;
-    height: 150px;
+    height: 100px;
     z-index: 1;
 }
-#hamburger{
-    margin: 80px 0px 0px 60px;
+
+#hamburger {
+    margin: 30px 0px 0px 60px;
     float: left;
     height: 40px;
 }
-h1{
+
+h1 {
     color: white;
     font-family: 'Roboto-Black';
     font-size: 50px;
-    float:left;
-    margin: 60px 340px 0px 340px;
+    float: left;
+    margin: 20px 340px 0px 340px;
 }
-#notification{
-    margin:80px 60px 0px 0px;
+
+#notification {
+    margin: 30px 60px 0px 0px;
     height: 40px;
 }
-#overlay{
+
+#overlay {
     visibility: hidden;
     height: 1920px !important;
     width: 1080px !important;
@@ -63,9 +76,10 @@ h1{
     left: 0px;
     top: 0px;
 }
-#drawer{
+
+#drawer {
     visibility: hidden;
-    width:900px;
+    width: 900px;
     height: 1920px !important;
     z-index: 3;
     position: absolute;
@@ -74,59 +88,85 @@ h1{
     background-color: white;
     box-shadow: 2px 2px 5px #000000;
 }
-#drawerHeader{
+
+#drawerHeader {
     position: absolute;
     left: 0px;
     top: 0px;
     height: 450px;
-    width:900px;
+    width: 900px;
     background-color: #302E31;
 }
-#headshot{
-    height:180px;
-    width:180px;
-    border-radius:90px;
+
+#headshot {
+    height: 180px;
+    width: 180px;
+    border-radius: 90px;
     margin: 60px 0px 0px 70px;
 }
-.drawerHeaderText{
+
+.drawerHeaderText {
     font-size: 48px;
     color: white;
     margin-left: 70px;
     margin-bottom: 0px;
+    padding-left: 0px !important;
 }
-#user{
+
+#user {
     margin-top: 20px;
     font-family: 'Roboto-Medium';
 }
-#location{
+
+#location {
     margin-top: 0px;
     font-family: 'Roboto-Regular';
     float: left;
 }
-#drawerBody{
+
+#drawerBody {
     position: absolute;
-    top:451px;
-    height:954px;
-    width:592px;
-    color:#302E31;
+    top: 451px;
+    height: 954px;
+    width: 592px;
+    color: #302E31;
 }
-#menu{
-    height:900px;
-    width:700px;
+
+#menu {
+    height: 900px;
+    width: 700px;
     margin: 50px;
     margin-top: 50px;
-    
 }
-.menuRow{
+
+.menuRow {
     margin: 90px 0px 90px 20px;
 }
-.drawerIcon{
+
+.drawerIcon {
     width: 60px;
     height: 60px;
     float: left;
     margin: 0px 80px 0px 0px;
 }
-.menuOption{
+
+.menuOption {
     font-size: 44px;
     font-family: 'Roboto-Regular';
+}
+
+#search {
+    width: 1080px;
+    height: 140px;
+    background-color: #302E31;
+    z-index: 3;
+    top: 100px;
+    left: 0px;
+    display: none;
+    position: absolute;
+}
+#searchField{
+    height: 80px;
+    width: 940px;
+    margin: 10px 60px;
 }
