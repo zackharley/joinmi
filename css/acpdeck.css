@@ -26,7 +26,7 @@ p {
 
 .deck {
     margin-top: 100px;
-    height: 1380px;
+    height: 1410px;
     z-index: 9;
  
 
@@ -45,7 +45,7 @@ p {
 }
 
 #deckHeader { /* this will get changed per card */
-    background-color: #BD10ED;
+    background-color: #D0021B;
 
 }
 
@@ -57,4 +57,15 @@ p {
     font-size: 40px;
     left: 137;
     top: 345;   
+}
+
+#invited {
+    float: left;
+    position: absolute;
+    left: 96;
+}
+
+.secondTable {
+    margin-top: 100px;
+    margin-left: -20px;
 }
