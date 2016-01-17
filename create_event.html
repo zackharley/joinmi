@@ -1,0 +1,92 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/acpdeck3.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/main_interface.css">
+    <link rel="stylesheet" href="css/acpdeck.css">
+    <script src="js/jquery-2.2.0.min.js"></script>
+    <script src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
+    <script type="text/javascript" src="js/transit.js"></script>
+    <!--<script type="text/javascript" src="js/script.js"></script>-->
+
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- APPLE FEATURE, allows for detection of phone numbers, although due to some issues w/ 'too many numbers being selected', it is set to 'no' aka off by default -->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- more link tags for individual pages -->
+
+</head>
+
+<body>
+    <!-- <div id="deviceready" class="blink">
+        <p class="event listening">Connecting to Device</p>
+        <p class="event received">Device is Ready</p>
+    </div> default native asset access establishment indication (cordova.js has loaded) -->
+    <header>
+        <a href="main_interface.html">
+            <img id="hamburger" src="photos/global/ic_back.svg">
+        </a>
+        <h1>JOINMI</h1>
+        <img id="notification" src="photos/global/ic_magglass.svg">
+    </header>
+    <div id="search">
+        <input id="searchField" placeholder="search for an event">
+    </div>
+
+    <div class="deck">
+        <div id="topCard">
+            <img id="cloud" src="photos/global/BUBBLE.svg" style="top: 124px;" />
+            <h2 id="bubbleText" style="top: 140;left: 150px;">Me</h2>
+            <div id="deckHeader" style="background-color: grey;">
+                <h3>EVENT NAME</h3>
+            </div>
+            <div id="writtenContent">
+                <table>
+                    <tr>
+                        <td id="location"><img class="image" src="photos/main_interface/ic_location_blue.svg" /></td>
+                        <td>Location</td>
+                        <td style="color:#E62565">
+                            ...</td>
+                    </tr>
+                    <tr>
+                        <td><img class="image" src="photos/main_interface/ic_time_blue.svg" /></td>
+                        <td>Time</td>
+                        <td style="color:#E62565">
+                            ...</td>
+                    </tr>
+                    <tr>
+                        <td><img class="image" src="photos/main_interface/ic_invited_blue.svg" /></td>
+                        <td>Invited</td>
+                        <td style="color:#E62565">
+                            ...</td>
+                    </tr>
+
+
+                </table>
+            </div>
+            <div id="profileCircles" style="border-top: 1px solid grey;">
+                <div class="paramRow">
+                    <img class="image float" src="photos/create_event/ic_parameter.svg" alt="">
+                    <p class="param">Parameter</p>
+                </div>
+                <div class="paramRow">
+                    <img class="image float" src="photos/create_event/ic_parameter.svg" alt="">
+                    <p class="param">Parameter</p>
+                </div>
+                <div class="paramRow">
+                    <img class="image float" src="photos/create_event/ic_parameter.svg" alt="">
+                    <p class="param">Parameter</p>
+                </div>
+
+            </div>
+</body>
+
+
+</html>

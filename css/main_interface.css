@@ -147,7 +147,7 @@
     
     body {
         min-height: 100%;
-        margin: 0px
+        margin: 0px;
     }
     
     a {
@@ -161,3 +161,19 @@
         font-size: 90px;
         margin-left: 2px;
     }
+.float{
+    float: left;position:absolute;
+}
+.paramRow{
+    margin-left: 20px;
+    height: 120px;
+}
+.param{
+    position: absolute;
+    margin: 0px 0px 0px 160px;
+    padding: 50px 0px 0px 36px;
+    font-family: 'Roboto-Regular';
+    font-size: 36px;
+    color: #4A4A4A;
+    float:left;
+}
