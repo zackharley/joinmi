@@ -1,7 +1,4 @@
-function drawerOpen() {
-    $('#overlay').css('visibility', 'visible');
-    $('#drawer').css('visibility', 'visible');
-}
+
 function drawerClose() {
     $('#overlay').css('visibility', 'hidden');
     $('#drawer').css('visibility', 'hidden');
@@ -17,5 +14,12 @@ $('document').ready(function () {
             $("#search").slideUp("slow");
             check = 0;
         }        
+    });
+    
+    $('#hamburger').click(function(){
+        $('#overlay').css('visibility', 'visible');
+        $('#drawer').animate({
+            left: '0px'
+        }, 1000);
     });
 });

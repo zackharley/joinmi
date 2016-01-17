@@ -78,12 +78,12 @@ h1 {
 }
 
 #drawer {
-    visibility: hidden;
+
     width: 900px;
     height: 1920px !important;
     z-index: 3;
     position: absolute;
-    left: 0px;
+    left: -900px;
     top: 0px;
     background-color: white;
     box-shadow: 2px 2px 5px #000000;
