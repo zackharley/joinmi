@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_social</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="iPhone-6" sketch:type="MSArtboardGroup" transform="translate(-23.000000, -319.000000)" fill="#727272">
+            <g id="side-nav" sketch:type="MSLayerGroup">
+                <g id="list" transform="translate(20.137085, 184.759019)" sketch:type="MSShapeGroup">
+                    <g id="icons" transform="translate(0.000000, 1.000000)">
+                        <g id="ic_social" transform="translate(0.862915, 133.429006)">
+                            <path d="M11.080923,10.287 C8.08156578,10.287 2.08028015,11.7874286 2.08028015,14.787 L2.08028015,18 L20.0802802,18 L20.0802802,14.787 C20.0802802,11.7874286 14.0815658,10.287 11.080923,10.287 M11.080923,-1.11022302e-14 C8.95193218,-1.11022302e-14 7.2240556,1.72928571 7.2240556,3.85842857 C7.2240556,5.98757143 8.95193218,7.71557143 11.080923,7.71557143 C13.2111994,7.71557143 14.9262197,5.98757143 14.9262197,3.85842857 C14.9262197,1.72928571 13.2111994,-1.11022302e-14 11.080923,-1.11022302e-14"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
