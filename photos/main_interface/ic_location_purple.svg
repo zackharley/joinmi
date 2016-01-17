@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="15px" height="20px" viewBox="0 0 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_location</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="iPhone-6-Copy-11" sketch:type="MSArtboardGroup" transform="translate(-49.000000, -207.000000)" fill-opacity="0.8" fill="#BD0FE1">
+            <g id="invite-card" sketch:type="MSLayerGroup" transform="translate(22.000000, 111.000000)">
+                <g id="sheet" transform="translate(25.000000, 96.000000)" sketch:type="MSShapeGroup">
+                    <g id="basic">
+                        <path d="M16.7155172,6.92571429 C16.7155172,3.08071429 13.5823172,0 9.71551717,0 C5.84941717,0 2.71551717,3.06428571 2.71551717,6.90928571 C2.71551717,6.97071429 2.72321717,7.04071429 2.72531717,7.04071429 L2.71551717,7.04071429 C2.62381717,11.3264286 7.67781717,17.9421429 9.71551717,19.8657143 C11.7532172,17.9421429 16.8072172,11.3264286 16.7155172,7.04071429 L16.7057172,7.04071429 C16.7078172,7.04 16.7155172,6.98714286 16.7155172,6.92571429 L16.7155172,6.92571429 Z M9.71551717,4.36285714 C11.1778172,4.36285714 12.3622172,5.54142857 12.3622172,6.99571429 C12.3622172,8.45 11.1778172,9.62714286 9.71551717,9.62714286 C8.25321717,9.62714286 7.06881717,8.45 7.06881717,6.99571429 C7.06881717,5.54142857 8.25321717,4.36285714 9.71551717,4.36285714 L9.71551717,4.36285714 Z" id="ic_location"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -45,6 +45,16 @@ p {
 }
 
 #deckHeader { /* this will get changed per card */
-    background-color: #4A78CA;
+    background-color: #BD10ED;
 
+}
+
+#bubbleText {
+    color: #e91e63;
+    float: left;
+    position: absolute;
+    font-family: Roboto-Black;
+    font-size: 40px;
+    left: 137;
+    top: 345;   
 }
