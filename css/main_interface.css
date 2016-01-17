@@ -73,7 +73,7 @@
     }
     
     #profileCircles td {
-        padding: 
+        padding:
     }
     
     #firstRowCircle {
@@ -110,7 +110,7 @@
     }
     
     #redCircle {
-        position:absolute;
+        position: absolute;
         top: 700px;
         left: 850px;
     }
@@ -151,37 +151,14 @@
         margin: 0px
     }
     
-    header {
-        background-color: #302E31;
-        width: 100%;
-        height: 64px;
-    }
-    
-    #hamburger {
-        margin: 35px 0px 0px 20px;
-        float: left;
-    }
-    
-    h1 {
-        color: white;
-        font-family: 'Roboto-Black';
-        font-size: 18px;
-        float: left;
-        margin: 30px 115px 0px 115px;
-    }
-    
-    #notification {
-        margin: 35px 20px 0px 0px;
-    }
-    
     a {
         color: none;
     }
-
-#plus{
-    color: white;
-    font-family: 'Roboto-Black';
-    text-align: center;
-    font-size: 90px;
-    margin:-5px 0px 0px -5px;;
-}
+    
+    #plus {
+        color: white;
+        font-family: 'Roboto-Black';
+        text-align: center;
+        font-size: 90px;
+        margin: -5px 0px 0px -5px;
+    }

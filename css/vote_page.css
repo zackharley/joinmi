@@ -18,9 +18,9 @@
 }
 
 #voteText {
-    float: left;
-    margin-left: -130px;
-    margin-top: -25px;
+    position: absolute;
+    top: 200px;
+    left: 120px;
 }
 
 .votingBar {
@@ -74,13 +74,6 @@
     
 }
 
-h1 {
-    float: right;
-    width: 500px;
-    margin-top: 50px;
-    margin-left: 10px;
-    margin-right: 270px; 
-}
 
 .contentWritten {
     float: left;
