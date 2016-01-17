@@ -18,7 +18,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/main_interface.css" />
     <link rel="stylesheet" type="text/css" href="css/vote_page.css" />
-    <!-- more link tags for individual pages -->
+    <!-- more link tags for individual pages
 
 </head>
 
@@ -28,67 +28,32 @@
         <p class="event received">Device is Ready</p>
     </div> default native asset access establishment indication (cordova.js has loaded) -->
     <header>
-        <a onclick="drawerOpen()"><img id="hamburger" src="photos/global/ic_hamburger.png"></a>
-        <h1>VOTE ON LOCATION</h1>
-        <img id="notification" src="photos/global/ic_notification.png">
+        <a href="main_interface.html">
+            <img id="hamburger" src="photos/global/ic_back.png">
+        </a>
+        <h1>JOINMI</h1>
+        <img id="notification" src="photos/global/ic_magglass.png">
     </header>
-    <a onclick="drawerClose()"><div id="overlay"></div></a>
-    <div id="drawer">
-        <div id="drawerHeader">
-            <div id="headshot" style="background-color:white;"></div>
-            <p id="user" class="drawerHeaderText">NAME</p>
-            <p id="location" class="drawerHeaderText">(location)</p>
-        </div>
-        <div id="drawerBody">
-            <div id="menu">
-                <div class="menuRow">
-                    <img class="drawerIcon" src="photos/global/ic_activeinvites_inactive.png"> 
-                    <p class="menuOption">Active Invitations</p>
-                </div>
-                <div class="menuRow">
-                   <img class="drawerIcon" src="photos/global/ic_createdinvites_inactive.png"> 
-                    <p class="menuOption">Created Events</p>
-                </div>
-                <div class="menuRow">
-                   <img class="drawerIcon" src="photos/global/ic_previnvites_inactive.png"> 
-                    <p class="menuOption">Previous Invitations</p>
-                </div>
-                <div class="menuRow">
-                   <img class="drawerIcon" src="photos/global/ic_social_inactive.png"> 
-                    <p class="menuOption">Social Circles (Groups)</p>
-                </div>
-                <div class="menuRow">
-                   <img class="drawerIcon" src="photos/global/ic_card_inactive.png"> 
-                    <p class="menuOption">Event Cards</p>
-                </div>
-                <div class="menuRow">
-                   <img class="drawerIcon" src="photos/global/ic_util_inactive.png"> 
-                    <p class="menuOption">Utilities</p>
-                </div>
-                <div class="menuRow">
-                   <img class="drawerIcon" src="photos/global/ic_settings_inactive.png"> 
-                    <p class="menuOption">Settings</p>
-                </div>
-            </div>
-        </div>
+    <div id="search">
+        <input id="searchField" placeholder="Search for an event">
     </div>
     <div class="deck">
         <div id="deckHeader">
             <div id="cloudText">
-                <img id="cloud" src="photos/vote/bubble_invitedperson_red.png"/>
+                <img id="cloud" src="photos/vote/bubble_invitedperson_red.png" />
                 <p id="voteText">VOTE</p>
             </div>
             <h3 id="headerTitle">Location</h3>
         </div>
         <div class="votingBar" id="firstBar">
-                <div class="contentWritten">
-                    <h3 class="event">Moe Looms'</h3>
-                    <p class="eventInformation">(10km from current location)</p>
-                </div>
+            <div class="contentWritten">
+                <h3 class="event">Moe Looms'</h3>
+                <p class="eventInformation">(10km from current location)</p>
+            </div>
             <div class="scoreVoter">
-                <img class="triangle" src="photos/vote/ic_uparrow.png"/>
+                <img class="triangle" src="photos/vote/ic_uparrow.png" />
                 <p class="score">score</p>
-                <img class="triangle" src="photos/vote/ic_downarrow.png"/>
+                <img class="triangle" src="photos/vote/ic_downarrow.png" />
             </div>
         </div>
         <div class="votingBar" id="secondBar">
@@ -97,9 +62,9 @@
                 <p class="eventInformation">(14km from current location)</p>
             </div>
             <div class="scoreVoter">
-                <img class="triangle" src="photos/vote/ic_uparrow.png"/>
+                <img class="triangle" src="photos/vote/ic_uparrow.png" />
                 <p class="score">score</p>
-                <img class="triangle" src="photos/vote/ic_downarrow.png"/>
+                <img class="triangle" src="photos/vote/ic_downarrow.png" />
             </div>
         </div>
         <div class="votingBar" id="thirdBar">
@@ -108,9 +73,9 @@
                 <p class="eventInformation">(8km from current location)</p>
             </div>
             <div class="scoreVoter">
-                <img class="triangle" src="photos/vote/ic_uparrow.png"/>
+                <img class="triangle" src="photos/vote/ic_uparrow.png" />
                 <p class="score">score</p>
-                <img class="triangle" src="photos/vote/ic_downarrow.png"/>
+                <img class="triangle" src="photos/vote/ic_downarrow.png" />
             </div>
         </div>
         <div class="votingBar" id="fourthBar">
@@ -119,16 +84,16 @@
                 <p class="eventInformation">(22km from current location)</p>
             </div>
             <div class="scoreVoter">
-                <img class="triangle" src="photos/vote/ic_uparrow.png"/>
+                <img class="triangle" src="photos/vote/ic_uparrow.png" />
                 <p class="score">score</p>
-                <img class="triangle" src="photos/vote/ic_downarrow.png"/>
+                <img class="triangle" src="photos/vote/ic_downarrow.png" />
             </div>
         </div>
-        <img id="redPlusCircle" src="photos/main_interface/button_hover.png"/>
-    </div>    
-    
+        <img id="redPlusCircle" src="photos/main_interface/button_hover.png" />
+    </div>
 
-        
+
+
 </body>
 
 

@@ -11,8 +11,8 @@
     border:none;
 }
 #logo{
-    width: 800px;
-    margin: 140px; 
+    width: 400px;
+    margin: 100px 340px; 
 }
 #prompt{
     font-family: 'Roboto-Regular';
@@ -26,4 +26,10 @@
 }
 .socialLogin{
     margin: 0px 100px;
+}
+#blurb{
+    background-image: url(photos/landing/bubble_invitedperson.png);
+    background-size: cover;
+    width: 300px;
+    height: 200px;
 }

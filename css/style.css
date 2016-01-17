@@ -170,3 +170,13 @@ h1 {
     width: 940px;
     margin: 10px 60px;
 }
+a{
+    color: none;
+    text-decoration: none;
+}
+#searchField{
+    font-family: 'Roboto-Light';
+    font-size: 36px;
+    color: #302E31;
+    padding-left: 20px;
+}
