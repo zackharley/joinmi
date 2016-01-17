@@ -37,13 +37,14 @@
 
 .event {
     font-family: Roboto-Regular;
-    font-size: 24px;
+    font-size: 36px;
     margin-bottom: 2px;
 }
 
 .eventInformation {
     opacity: 0.5;
     font-family: Roboto-Regular;
+    font-size: 24px;
 }
 
 .scoreVoter {
@@ -58,7 +59,7 @@
 
 .triangle {
     height: 20px;
-    margin-left: 52px;
+    margin-left: 30px;
     margin-bottom: -5px;
 }
 
@@ -68,7 +69,7 @@
     font-family: Roboto-Regular;
     color: #ea618f;
     padding-left: 30px;
-    font-size: 24px;
+    font-size: 30px;
     margin-top: 5px;
     margin-bottom: 5px;
     
@@ -94,4 +95,21 @@
 
 #fourthbar {
     z-index: 4;
+}
+h3{
+    margin:0px;
+}
+.winning{
+    background-color: #E62565;
+    color:white;
+    height: 40px;
+    position:absolute;
+    width:100px;
+    top:400px;
+    left: 800px;
+    border-radius: 20px;
+    font-family: 'Roboto-Regular';
+    text-align: center;
+    padding-top:10px;
+    
 }
