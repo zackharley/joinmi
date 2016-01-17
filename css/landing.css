@@ -1,14 +1,21 @@
 #login{
-    width: 800px;
+    position: absolute;
+    
+    width: 600px;
     height: 100px;
     font-family: 'Roboto-Regular';
     font-size: 36px;
-    color:white;
-    background-image: url('../photos/global/button_invite.png');
+    background-image: url('../photos/landing/button_invite.svg');
     background-size: cover;
-    margin-left: 140px;
+    margin-left: 240px;
     -webkit-appearance: none;
     border:none;
+    text-align:center;
+    margin-top: 50px;
+    color: white !important;
+}
+a{
+    color:white !important;
 }
 #logo{
     width: 400px;
@@ -22,10 +29,11 @@
     margin-top: 100px;
 }
 #socialButtons{
-    margin-left: 140px;
+    margin-left: 0px;
+    height: 100px;
 }
 .socialLogin{
-    margin: 0px 100px;
+    margin: 0px;
 }
 #blurb{
     background-image: url("../photos/landing/joinmi_bubble.svg");
