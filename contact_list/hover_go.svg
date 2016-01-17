@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>button_hover</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="iPhone-6-Copy-7" sketch:type="MSArtboardGroup" transform="translate(-299.000000, -592.000000)">
+            <g id="button_hover" sketch:type="MSLayerGroup" transform="translate(303.000000, 594.000000)">
+                <circle id="Oval-8" fill="#E91E63" filter="url(#filter-1)" sketch:type="MSShapeGroup" cx="28" cy="28" r="28"></circle>
+                <path d="M34.4261838,26.3640898 L24.3860941,16.6284289 C23.6111973,15.7905237 22.355137,15.7905237 21.5811726,16.6284289 C20.8062758,17.4563591 20.8062758,18.7930175 21.5811726,19.6209476 L30.2122742,28 L21.5811726,36.3790524 C20.8062758,37.2069825 20.8062758,38.5436409 21.5811726,39.3715711 C22.355137,40.2094763 23.6111973,40.2094763 24.3860941,39.3715711 L34.4261838,29.6359102 C34.8458031,29.1870324 35.0304356,28.5885287 34.9959335,28 C35.0304356,27.4114713 34.8458031,26.8129676 34.4261838,26.3640898" id="Fill-5" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

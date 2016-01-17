@@ -1,0 +1,70 @@
+html body {
+    background-image: url("../contact_list/whitebg.svg");
+    
+}
+
+p {
+    font-family: Roboto-Regular;
+    font-size: 36px;
+    color: #4a4a4a;
+    opacity: 0.5;
+}
+
+.name {
+    margin-left: 200px;
+    margin-top: -120px;
+}
+
+.container {
+    position: absolute;
+    margin-top: 240px;
+    width: 1080px;
+    height: 2525px; /*allows for three more contacts + margin beyond screen */
+}
+
+#margin {
+    height: 55px;
+}
+
+.identifier {
+    float: left;
+    height: 200px;
+    width: 250px;
+    color: #e62865;
+}
+
+.contact {
+    float: right;
+    height: 200px;
+    width: 830px;
+}
+
+.avatar {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    background-color: #e62865;
+    margin: 25px 0px 25px 25px;
+    border: 1px solid black;
+}
+
+.checkmark {
+    float: right;
+    margin-top: -60px;
+    margin-right: 60px;
+   
+}
+
+#innerStar {
+    float: left;
+    margin-top: 75px;
+    margin-left: 110px;
+    
+}
+
+.innerCharacter {
+    float: left;
+    margin-left: 110px;
+    font-size: 64px;
+}
