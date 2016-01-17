@@ -1,0 +1,50 @@
+p {
+    font-size: 24px;
+}
+
+.subheader {
+    margin-top: 140px;
+    height: 80px;
+    background-color: #302e31;
+}
+
+.subheaderCategory {
+    display: inline-block;
+    float: left;
+    height: inherit;
+    width: 360px;
+    text-align: center;
+    color: white;
+    opacity: 0.5;
+    font-family: "Roboto-Medium";
+}
+
+#cloud {
+    position: absolute;
+    top: 335;
+}
+
+.deck {
+    margin-top: 100px;
+    height: 1380px;
+    z-index: 9;
+ 
+
+}
+
+#firstUnderlay {
+    margin-bottom:
+    z-index: 1;
+}
+
+#redCircle {
+    position: absolute;
+    left: 800;
+    top: 715;
+    z-index: 10;
+}
+
+#deckHeader { /* this will get changed per card */
+    background-color: #4A78CA;
+
+}
