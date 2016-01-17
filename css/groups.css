@@ -59,3 +59,10 @@ h2 {
     font-size: 36px;
     text-align: center;
 }
+#redCircle {
+    position:absolute;
+    height: 150px;
+    width: 150px;
+    left: 900px;
+    top: 1750px;
+}
