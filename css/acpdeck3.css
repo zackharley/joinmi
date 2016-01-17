@@ -1,0 +1,12 @@
+div .secondTable {
+    position: absolute;
+    top: -100;
+}
+
+div #bubbleText {
+    left: 145;
+}
+
+body .deck {
+    height: 1375px;
+}
