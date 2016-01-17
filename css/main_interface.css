@@ -53,8 +53,8 @@
         font-family: Roboto-Medium;
     }
     
-    #location {
-        padding-left: 25px;
+    #location>.image {
+        margin-left:44px;
     }
     
     .image {

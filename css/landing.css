@@ -37,3 +37,14 @@
 h1{
     margin: 100px 60px!important;
 }
+#splash{
+    position:absolute;
+    display: none;
+    top:0px;
+    left: 0px;
+    z-index: 6;
+    height: 1920px;
+    width: 1080px;
+    background-image: url("../photos/landing/loading_screen_blue.svg");
+    background-size:cover;
+}

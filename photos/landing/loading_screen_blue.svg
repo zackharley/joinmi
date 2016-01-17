@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="375px" height="667px" viewBox="0 0 375 667" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>loading screen copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="loading-screen-copy" sketch:type="MSArtboardGroup">
+            <g id="bg" sketch:type="MSLayerGroup" transform="translate(0.000000, 1.000000)" fill="#3B5998">
+                <rect sketch:type="MSShapeGroup" x="0" y="0" width="375" height="667"></rect>
+            </g>
+            <g id="facebook" sketch:type="MSLayerGroup" transform="translate(108.000000, 271.000000)">
+                <rect id="Rectangle" sketch:type="MSShapeGroup" x="31" y="0" width="97" height="97"></rect>
+                <circle id="Oval" stroke="#FAFAFA" stroke-width="4" sketch:type="MSShapeGroup" cx="79.5" cy="48.5" r="48.5"></circle>
+                <path d="M82.6243311,77 L71.5391858,77 L71.5391858,51.4967811 L66,51.4967811 L66,42.7092275 L71.5391858,42.7092275 L71.5391858,37.4334764 C71.5391858,30.2650215 74.6652442,26 83.5523268,26 L90.9491973,26 L90.9491973,34.7907725 L86.3261532,34.7907725 C82.8664906,34.7907725 82.6378785,36.0187768 82.6378785,38.3106223 L82.6226377,42.7092275 L91,42.7092275 L90.0195082,51.4967811 L82.6226377,51.4967811 L82.6226377,77 L82.6243311,77 Z" id="Shape" fill="#FAFAFA" sketch:type="MSShapeGroup"></path>
+                <text id="connecting-to-Facebo" sketch:type="MSTextLayer" font-family="Roboto" font-size="14" font-weight="normal" fill="#FAFAFA">
+                    <tspan x="0" y="125">connecting to Facebook…</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
